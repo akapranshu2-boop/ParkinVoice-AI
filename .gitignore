@@ -1,11 +1,20 @@
-
+# Python cache
 __pycache__/
 *.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Local editor settings
+.vscode/
+
+# Virtual environments
 .venv/
 venv/
 env/
+
+# Environment variables and secrets
 .env
-.ipynb_checkpoints/
-.streamlit/secrets.toml
-.vscode/
+
+# Generated files
 .virtual_documents/
