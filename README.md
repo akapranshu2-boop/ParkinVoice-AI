@@ -254,7 +254,7 @@ python parkinson_main_file.py     # script version
 ## 👋 Made by **Pranshu Dhankhola**
 
 [![GitHub](https://img.shields.io/badge/GitHub-akapranshu2--boop-181717?style=for-the-badge&logo=github)](https://github.com/akapranshu2-boop)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pranshu-dhankhola-26a4122a2/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pranshu-dhankhola/)
 
 ⭐ **If this helped or impressed you, drop a star!** ⭐
 
