@@ -5,10 +5,10 @@
 
 **your voice says more than you think 🎙️✨**
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-Viz-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Plotly](https://img.shields.io/badge/Plotly-Viz-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/python/)
 
 [✨ TL;DR](#-tldr) · [📸 App Tour](#-app-tour) · [🔬 How It Works](#-how-it-works) · [📈 Results](#-results) · [⚙️ Run It](#️-run-it-locally) · [🧠 What I Learned](#-what-i-learned)
 
@@ -18,7 +18,7 @@
 
 ## ✨ TL;DR
 
-| | |
+| Topic | Details |
 |---|---|
 | 🎯 **Goal** | Tell healthy voices apart from Parkinson's voices using 22 acoustic measurements |
 | 🧪 **Data** | 195 voice recordings (Oxford / UCI Parkinson's dataset) |
@@ -48,16 +48,16 @@ Turn those into numbers, feed them to a model, and you get a voice-based classif
 
 <table>
   <tr>
-    <td align="center"><b>🏠 Overview</b><br><img src="screenshots/01-overview.png" width="100%"></td>
-    <td align="center"><b>🎙️ Voice Screening</b><br><img src="screenshots/02-voice-screening.png" width="100%"></td>
+    <td align="center"><b>🏠 Overview</b><br><img src="images/overview.png" width="100%"></td>
+    <td align="center"><b>🎙️ Voice Screening</b><br><img src="images/voice-screening.png" width="100%"></td>
   </tr>
   <tr>
-    <td align="center"><b>✅ Prediction Result</b><br><img src="screenshots/03-prediction-result.png" width="100%"></td>
-    <td align="center"><b>📂 Batch CSV Analysis</b><br><img src="screenshots/04-batch-analysis.png" width="100%"></td>
+    <td align="center"><b>✅ Prediction Result</b><br><img src="images/prediction-result.png" width="100%"></td>
+    <td align="center"><b>📂 Batch CSV Analysis</b><br><img src="images/batch-analysis.png" width="100%"></td>
   </tr>
   <tr>
-    <td align="center"><b>🏆 Feature Importance</b><br><img src="screenshots/05-feature-importance.png" width="100%"></td>
-    <td align="center"><b>🔥 Correlation Heatmap</b><br><img src="screenshots/06-correlation-heatmap.png" width="100%"></td>
+    <td align="center"><b>🏆 Feature Importance</b><br><img src="images/feature-importance.png" width="100%"></td>
+    <td align="center"><b>🔥 Correlation Heatmap</b><br><img src="images/correlation-heatmap.png" width="100%"></td>
   </tr>
 </table>
 
@@ -76,7 +76,7 @@ Turn those into numbers, feed them to a model, and you get a voice-based classif
 
 **Oxford Parkinson's Disease Detection Dataset** (UCI ML Repository), created by Max Little at the University of Oxford with the National Centre for Voice and Speech.
 
-| | |
+| Property | Value |
 |---|---|
 | 🎤 Recordings | **195** (about 6 per person) |
 | 🔴 Parkinson's group | **147** (75%) |
@@ -158,7 +158,7 @@ The model is **great at catching the Parkinson's group** (93% recall) but **stru
 ## 📁 Project Structure
 
 ```
-Parkinson-Disease-Detection/
+ParkinVoice-AI/
 ├── 📱 app.py                   # Streamlit dashboard (ParkinVoice AI)
 ├── 📓 main.ipynb               # EDA, models, tuning, saving the model
 ├── 🐍 parkinson_main_file.py   # Script version of the modelling workflow
@@ -166,7 +166,7 @@ Parkinson-Disease-Detection/
 ├── 📊 parkinsons.csv           # Dataset
 ├── 📊 parkinsons.data          # Original UCI data file
 ├── 📝 parkinsons.names         # Original dataset description
-├── 🖼️ screenshots/             # App screenshots shown in this README
+├── 🖼️ images/                  # App screenshots shown in this README
 ├── 📦 requirements.txt         # Dependencies
 └── 📖 README.md
 ```
@@ -177,8 +177,8 @@ Parkinson-Disease-Detection/
 
 ```bash
 # 1. Clone
-git clone https://github.com/<your-username>/Parkinson-Disease-Detection.git
-cd Parkinson-Disease-Detection
+git clone https://github.com/akapranshu2-boop/ParkinVoice-AI.git
+cd ParkinVoice-AI
 
 # 2. Virtual environment (recommended)
 python -m venv venv
@@ -208,7 +208,7 @@ python parkinson_main_file.py     # script version
 
 ## 🛠️ Tech Stack
 
-| | |
+| Purpose | Tools |
 |---|---|
 | 🐍 Language | Python |
 | 🧮 Data | pandas, NumPy |
@@ -253,7 +253,7 @@ python parkinson_main_file.py     # script version
 
 ## 👋 Made by **Pranshu Dhankhola**
 
-[![GitHub](https://img.shields.io/badge/GitHub-your--username-181717?style=for-the-badge&logo=github)](https://github.com/your-username)
+[![GitHub](https://img.shields.io/badge/GitHub-akapranshu2--boop-181717?style=for-the-badge&logo=github)](https://github.com/akapranshu2-boop)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-profile)
 
 ⭐ **If this helped or impressed you, drop a star!** ⭐
